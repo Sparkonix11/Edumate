@@ -1,0 +1,40 @@
+div.tt-container {
+    padding: 40px;
+    width: 75%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+}
+div.tt-container > h4{
+    color: #fff;
+}
+div.tt-container > img {
+    width:80%;
+    height: auto; /* Maintain aspect ratio */
+    display: inline-block; /* Ensure image behaves like a block element */
+    max-width: 100%;
+}
+
+/* student_dashboard.css */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+  }
+  
+  th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    color: black;
+  }
+  
+
+  

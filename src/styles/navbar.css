@@ -1,0 +1,58 @@
+div.nav-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 20px;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    max-width: 100vw;
+    margin-bottom: 40px;
+}
+
+div.logo > img {
+    height: 50px;
+    width: 50px;
+    z-index: -1;
+}
+
+
+.nav-links ul {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+    top: 0;
+    padding: 0;
+}
+.nav-links li {
+    border: 2px solid transparent;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+}
+.nav-links li:hover {
+    border: solid 2px #f9f9f9;
+    border-radius: 40px;
+}
+.nav-links a, .nav-links router-link {
+    text-decoration: none;
+}
+
+li.active {
+    border-bottom: #f9f9f9 3px solid;
+}
